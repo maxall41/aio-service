@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@upstash/redis": "^1.28.3",
+    "hono": "^4.0.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.4.1"
+  }
+}
